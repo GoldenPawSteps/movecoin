@@ -1,0 +1,32 @@
+<resources>
+    <Style TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="#333333"/>
+    </Style>
+    
+    <Style TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#007AFF"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Padding" Value="10,5"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+    
+    <Style TargetType="Entry">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="#333333"/>
+        <Setter Property="PlaceholderColor" Value="#AAAAAA"/>
+        <Setter Property="Margin" Value="0,5"/>
+    </Style>
+    
+    <Style TargetType="StackLayout">
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="Spacing" Value="10"/>
+    </Style>
+    
+    <Style TargetType="Frame">
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="HasShadow" Value="True"/>
+    </Style>
+</resources>
