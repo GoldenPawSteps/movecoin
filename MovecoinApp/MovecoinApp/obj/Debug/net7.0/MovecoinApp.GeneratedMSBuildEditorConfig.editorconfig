@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovecoinApp
+build_property.ProjectDir = /workspaces/movecoin/MovecoinApp/MovecoinApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/Resources/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.Resources.Styles.AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/AppStyles.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/Views/ChallengeCreationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.Views.ChallengeCreationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ChallengeCreationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ChallengeCreationPage.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/Views/ChallengeDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.Views.ChallengeDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ChallengeDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ChallengeDetailsPage.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/Views/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.Views.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/DashboardPage.xaml
+
+[/workspaces/movecoin/MovecoinApp/MovecoinApp/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovecoinApp.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ProfilePage.xaml

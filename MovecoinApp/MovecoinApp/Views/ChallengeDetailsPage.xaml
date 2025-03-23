@@ -1,0 +1,45 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovecoinApp.Views.ChallengeDetailsPage"
+             Title="Challenge Details">
+
+    <StackLayout Padding="10">
+        <Label Text="Challenge Title"
+               FontSize="24"
+               FontAttributes="Bold" />
+        
+        <Label Text="{Binding ChallengeTitle}"
+               FontSize="18" />
+
+        <Label Text="Metrics"
+               FontSize="20"
+               FontAttributes="Bold" />
+        
+        <StackLayout>
+            <Label Text="Steps: {Binding Metrics.Steps}" />
+            <Label Text="Floors: {Binding Metrics.Floors}" />
+            <Label Text="Intensity Minutes: {Binding Metrics.IntensityMinutes}" />
+        </StackLayout>
+
+        <Label Text="Stakes"
+               FontSize="20"
+               FontAttributes="Bold" />
+        
+        <Label Text="{Binding Stakes}" />
+
+        <Label Text="Rewards"
+               FontSize="20"
+               FontAttributes="Bold" />
+        
+        <Label Text="{Binding Rewards}" />
+
+        <Label Text="Duration"
+               FontSize="20"
+               FontAttributes="Bold" />
+        
+        <Label Text="{Binding Duration}" />
+
+        <Button Text="Join Challenge"
+                Command="{Binding JoinChallengeCommand}" />
+    </StackLayout>
+</ContentPage>

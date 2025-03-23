@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:local="clr-namespace:MovecoinApp"
+      xmlns:views="clr-namespace:MovecoinApp.Views"
+      x:Class="MovecoinApp.AppShell">
+
+    <ShellItem>
+        <ShellContent ContentTemplate="{DataTemplate views:DashboardPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Challenges">
+        <ShellContent ContentTemplate="{DataTemplate views:ChallengeCreationPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Profile">
+        <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
+    </ShellItem>
+
+</Shell>

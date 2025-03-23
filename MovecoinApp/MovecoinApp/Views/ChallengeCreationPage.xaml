@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovecoinApp.Views.ChallengeCreationPage"
+             Title="Create Challenge">
+
+    <StackLayout Padding="20">
+        <Label Text="Create a Health and Wellness Challenge"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Entry Placeholder="Challenge Name" />
+        
+        <Label Text="Select Metrics" FontSize="18" />
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="StepsCheckBox" />
+            <Label Text="Steps" VerticalOptions="Center" />
+            <CheckBox x:Name="FloorsCheckBox" />
+            <Label Text="Floors" VerticalOptions="Center" />
+            <CheckBox x:Name="IntensityMinutesCheckBox" />
+            <Label Text="Intensity Minutes" VerticalOptions="Center" />
+        </StackLayout>
+
+        <Label Text="Set Weights" FontSize="18" />
+        <StackLayout Orientation="Horizontal">
+            <Entry Placeholder="Steps Weight" Keyboard="Numeric" />
+            <Entry Placeholder="Floors Weight" Keyboard="Numeric" />
+            <Entry Placeholder="Intensity Minutes Weight" Keyboard="Numeric" />
+        </StackLayout>
+
+        <Label Text="Set Stakes" FontSize="18" />
+        <StackLayout Orientation="Horizontal">
+            <Entry Placeholder="Fixed Stake" Keyboard="Numeric" />
+            <Entry Placeholder="Min Stake" Keyboard="Numeric" />
+            <Entry Placeholder="Max Stake" Keyboard="Numeric" />
+        </StackLayout>
+
+        <Label Text="Set Organizer Profit Margin" FontSize="18" />
+        <Entry Placeholder="Profit Margin" Keyboard="Numeric" />
+
+        <Label Text="Select Duration" FontSize="18" />
+        <Picker Title="Duration" >
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Day</x:String>
+                    <x:String>Weekend</x:String>
+                    <x:String>Week</x:String>
+                    <x:String>Month</x:String>
+                    <x:String>Custom</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button Text="Create Challenge" 
+                BackgroundColor="Blue" 
+                TextColor="White" 
+                Command="{Binding CreateChallengeCommand}" />
+    </StackLayout>
+</ContentPage>
